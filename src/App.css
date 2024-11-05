@@ -1,0 +1,215 @@
+/* src/App.css */
+
+/* General App Layout */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #121212;
+  color: #eaeaea;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Sidebar Styling */
+.sidebar {
+  width: 200px;
+  background-color: #333;
+  padding: 20px;
+  color: #eaeaea;
+}
+
+.sidebar h2 {
+  color: #ffffff;
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sidebar a {
+  display: block;
+  color: #eaeaea;
+  text-decoration: none;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar a:hover {
+  background-color: #444;
+}
+
+/* Main Content Area */
+.main-content {
+  padding: 30px;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+/* Heading Styling */
+h1 {
+  font-size: 2em;
+  color: #fff;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #ccc;
+}
+
+/* Form Styling */
+.form-container {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  color: #eaeaea;
+}
+
+.form-container label {
+  display: block;
+  margin-top: 10px;
+  font-size: 1.1em;
+}
+
+.form-container input,
+.form-container select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #eaeaea;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.form-container button:hover {
+  background-color: #45a049;
+}
+
+/* Crewmate Card Styling */
+.crewmate-card {
+  background-color: #333;
+  color: #eaeaea;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.crewmate-card:hover {
+  transform: scale(1.05);
+}
+
+.crewmate-card p {
+  margin: 5px 0;
+}
+
+.crewmate-card button {
+  background-color: #666;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.crewmate-card button:hover {
+  background-color: #777;
+}
+
+/* Gallery Layout */
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Unique Crewmate Info Page */
+.crewmate-info {
+  background-color: #222;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 20px auto;
+  color: #eaeaea;
+  text-align: center;
+}
+
+/* Conditional Message Styling */
+.crewmate-info p {
+  font-size: 1.2em;
+  color: #ccc;
+}
+
+.crewmate-info .warning {
+  color: #ffcc00; /* Yellow color for warning */
+  font-weight: bold;
+}
+
+/* Button Styling on Crewmate Info Page */
+.crewmate-info button {
+  padding: 10px 15px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.crewmate-info button:hover {
+  background-color: #45a049;
+}
+
+
+/* Button for Edit/Delete Links */
+button {
+  padding: 10px 15px;
+  background-color: #555;
+  color: #eaeaea;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #666;
+}
+
+
+
+/* Hover Animation for Cards */
+.crewmate-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
+}
