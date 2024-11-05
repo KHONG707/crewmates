@@ -27,6 +27,7 @@ The following **optional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
+![Kapture 2024-11-04 at 23 54 21](https://github.com/user-attachments/assets/74439978-7984-420c-b842-d2acc9026f9c)
 
 
 GIF created with [Kap](https://getkap.co/) for macOS
